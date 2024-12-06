@@ -1,0 +1,162 @@
+@import '/fonts.css';
+
+body {
+    width: 1920px;
+    height: 11307px;
+    color: #ffffff;
+    font-family: Unbounded;
+}
+
+
+
+.estate {
+    background: url('/img/estate-car.jpg') no-repeat right;
+    width: 1920px;
+    height: 1130px;
+}
+
+.museum {
+    height: 560px;
+}
+
+.cars {
+    background-color: #D0E4D9;
+    height: 2854px;
+}
+
+.events {
+    background-color: #F6F9F1;
+    height: 2291px;
+    border-radius: 50px 50px;
+}
+
+.tickets {
+    height: 1415px;
+    border-radius: 50px;
+    background-color: #D2E3ED;
+}
+
+.location {
+    width: 1530px;
+    height: 922px;
+    top: 8256px;
+    left: 195px;
+}
+
+.map {
+    width: 1530px;
+    height: 1000px;
+    top: 9358px;
+    left: 195px;
+    border-radius: 50px;
+    border: 1px;
+    background-color: #D0E4D9;
+}
+
+.footer {
+    width: 1533px;
+    height: 619px;
+    border-radius: 50px;
+    background-color: #D2E3ED;
+    margin: 180px 198px;
+}
+
+.contacts-wrapper {
+    width: 729px;
+    height: 154px;
+    padding: 80px 100px;
+    gap: 15px;
+    color: #1E1E25;
+}
+
+.contacts {
+    font-family: Unbounded;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+}
+
+.mail {
+    width: 678px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.mail-info, .tg-info {
+font-family: Unbounded;
+font-size: 46px;
+font-weight: 500;
+line-height: 50px;
+text-align: left;
+}
+
+.mail-logo, .tg-logo {
+    width: 42px;
+    height: 42px;
+}
+
+.tg {
+    width: 485px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.participation {
+    font-family: Unbounded;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19.6px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    width: 282px;
+    height: 56px;
+    background-color: #ffffff;
+    border-radius: 60px;
+    border: 2px solid #6C79EC;
+    color: #6C79EC;
+    margin: -240px 100px;
+    float: right;
+}
+
+.footer-holder {
+    width: 1333px;
+    height: 38px;   
+    margin: 200px 100px;
+    gap: 423px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    width: 159px;
+    height: 38px;
+    justify-content: space-between;
+}
+
+.year {
+    width: 47px;
+    height: 14px;
+    font-family: Unbounded;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    text-align: right;
+    color: #1E1E25;
+}
+
+.agreement {
+    width: 281px;
+    height: 14px;
+    font-family: Unbounded;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    text-align: right;
+    color: #1E1E25;
+}
