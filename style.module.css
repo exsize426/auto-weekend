@@ -8,12 +8,152 @@ body {
     font-family: Unbounded;
 }
 
+.header {
+    position: absolute;
+    margin: 38px 195px;
+}
 
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    width: 1530px;
+    height: 38px;
+    
+}
+
+.header-navbar {
+    width: 577px;
+    height: 14px;
+    gap: 70px;
+    display: flex;
+    font-family: Unbounded;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+}
 
 .estate {
     background: url('/img/estate-car.jpg') no-repeat right;
     width: 1920px;
     height: 1130px;
+    position: relative;
+    z-index: -100;
+}
+
+.estate-container {
+    padding: 126px 195px;
+}
+
+.companies {
+    width: 580px;
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brooklands {
+    width: 132px;
+    height: 36px;
+}
+
+.cogaz {
+    width: 88px;
+    height: 18px;
+}
+
+.avto {
+    width: 94px;
+    height: 18px;
+}
+
+.rossi {
+    width: 77px;
+    height: 36px;
+}
+
+.car-weekend_at_the_estate {
+    margin-top: 210px;
+}
+
+.class-date {
+    width: 258px;
+    height: 24px;
+    font-family: Unbounded;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+}
+
+.arkhangelsk__estate {
+    width: 1399px;
+    height: 172px;
+    font-family: Unbounded;
+    font-size: 86px;
+    font-weight: 500;
+    line-height: 86px;
+    text-align: left;
+    margin-top: 40px;
+}
+
+.weekend_in_Moscow {
+    width: 1009px;
+    height: 48px;
+    font-family: Unbounded;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin-top: 40px;
+}
+
+.buttons {
+    display: flex;
+    width: 550px;
+    height: 56px;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.consent__to__participate {
+    font-family: Unbounded;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19.6px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    width: 282px;
+    height: 56px;
+    background-color: #6C79EC;
+    border-radius: 60px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.buy-tickets {
+    font-family: Unbounded;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19.6px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    width: 238px;
+    height: 56px;
+    background-color: #ffffff;
+    border-radius: 60px;
+    border: 2px solid #6C79EC;
+    color: #6C79EC;
+}
+
+.arrow {
+    width: 28px;
+    height: 7px;
+    margin: 232px 751px;
 }
 
 .museum {
@@ -50,6 +190,83 @@ body {
     background-color: #D0E4D9;
     height: 2854px;
     border-radius: 50px;
+}
+
+.cars-container {
+    display: flex;
+    padding: 204px 195px;
+    justify-content: space-between;
+}
+
+.first__car__block {
+    width: 650px;
+    height: 2276px;
+    gap: 130px;
+
+}
+
+.automobile-wrapper {
+    width: 650px;
+    height: 374px;
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.automobile {
+    width: 401px;
+    height: 50px;
+    font-family: Unbounded;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: left;
+}
+
+.automobile-info {
+    width: 650px;
+    height: 168px;
+    font-family: Unbounded;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.rich-ferrari {
+    width: 650px;
+    height: 650px;
+    border-radius: 40px;
+    padding-top: 130px;
+}
+
+.more-picture {
+    width: 650px;
+    height: 212px;
+    border-radius: 40px;
+    padding-top: 130px;
+}
+
+.second__car__block {
+    width: 750px;
+    height: 2360px;
+    gap: 130px;
+
+}
+
+.rarity {
+    width: 750px;
+    height: 750px;
+    border-radius: 50px;
+    padding-top: 130px;
+}
+
+.rarity-delorean {
+    width: 750px;
+    height: 600px;
+    border-radius: 40px;
+    padding-top: 130px;
 }
 
 .events {
