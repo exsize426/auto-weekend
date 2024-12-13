@@ -275,6 +275,165 @@ body {
     border-radius: 50px 50px;
 }
 
+.scheme-container {
+    width: 1530px;
+    height: 621px;
+    padding: 240px 195px 0px 195px;
+}
+
+.scheme {
+    width: 372px;
+    height: 50px;
+    font-family: Unbounded;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: left;
+}
+
+.entertainment {
+    width: 1530px;
+    height: 491px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.exhibition, .audience, .childrens-activities {
+    width: 490px;
+    height: 491px;
+    border-radius: 40px;
+    border: 2px solid #c1c1c1;
+}
+
+.exhibition-wrapper, .audience-wrapper, .childrens-activities-wrapper {
+    width: 350px;
+    height: 351px;
+    padding: 70px;
+}
+
+.exhibition-logo, .audience-logo, .little-child {
+    width: 36px;
+    height: 36px;
+}
+
+.exhibition-title, .audience-title, .little-child-title {
+    width: 350px;
+    height: 135px;
+    font-family: Unbounded;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 45px;
+    text-align: left;
+    padding: 30px 0px;
+}
+
+.exhibition-context, .audience-context, .little-child-context {
+    width: 350px;
+    height: 120px;
+    font-family: Unbounded;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.surprise-container {
+    width: 1530px;
+    height: 980px;
+    padding: 160px 195px 0px 195px;
+}
+
+.competitions__prizes {
+    width: 582px;
+    height: 50px;
+    font-family: Unbounded;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: left;
+}
+
+.reward-container {
+    width: 1530px;
+    height: 850px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.surprise-image-container {
+    width: 750px;
+    height: 850px;
+    border-radius: 40px;
+    background: url('./img/surprise-img.jpg') no-repeat right bottom;
+    background-color: #D2E3ED;
+}
+
+.surprise-wrapper {
+    padding: 120px 100px 514px 100px;
+    width: 550px;
+    height: 216px;
+}
+
+.prizes-from-sponsors {
+    width: 550px;
+    height: 90px;
+    font-family: Unbounded;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 45px;
+    text-align: left;
+}
+
+.conditions {
+    width: 550px;
+    height: 96px;
+    font-family: Unbounded;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    padding-top: 30px;
+}
+
+.competitions-image-container {
+    width: 750px;
+    height: 850px;
+    border-radius: 40px;
+    background: url('./img/cup-img.jpg') no-repeat right bottom;
+    background-color: #353535;
+}
+
+.competitions-wrapper {
+    width: 550px;
+    height: 291px;
+    padding: 120px 100px 439px 100px;
+}
+
+.competitions {
+    width: 550px;
+    height: 45px;
+    font-family: Unbounded;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 45px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.competitions__context {
+    width: 550px;
+    height: 216px;
+    font-family: Unbounded;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #ffffff;
+    padding-top: 30px;
+}
+
 .tickets {
     height: 1415px;
     border-radius: 50px;
