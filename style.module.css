@@ -440,6 +440,163 @@ body {
     background-color: #D2E3ED;
 }
 
+.ticket-header {
+    width: 2242px;
+    height: 146px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: -60px;
+    background-color: #ffffff;
+}
+
+.ticket-logo {
+    width: 85px;
+    height: 85px;
+}
+
+.inscription {
+    width: 408px;
+    height: 86px;
+    font-family: Unbounded;
+    font-size: 86px;
+    font-weight: 500;
+    line-height: 86px;
+    text-align: left;
+}
+
+.ticket-context {
+    width: 1550px;
+    height: 433px;
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 195px;
+
+}
+
+.exhibitions {
+    width: 360px;
+    height: 433px;
+    background-color: #ffffff;
+    border-radius: 40px;
+}
+
+.one-day__wrapper {
+    width: 300px;
+    height: 174px;
+    gap: 30px;
+    padding: 30px;
+}
+
+.ticket-day {
+    width: 249px;
+    height: 24px;
+    font-family: Unbounded;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    padding-bottom: 30px;
+}
+
+.solid-line {
+    width: 300px;
+    height: 0px;
+    border: 1px solid #1E1E25;
+}
+
+.ticket-day-info {
+    width: 299px;
+    height: 90px;
+    gap: 8px;
+    font-family: Unbounded;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18.2px;
+    text-align: left;
+    padding-top: 30px;
+}
+
+.value-ticket {
+    width: 300px;
+    height: 101px;
+    gap: 20px;
+    padding: 68px 30px 30px 30px;
+}
+
+.price {
+    width: 125px;
+    height: 25px;
+    font-family: Unbounded;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.buy-ticket-button {
+        font-family: Unbounded;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 19.6px;
+        letter-spacing: 0.2em;
+        text-align: center;
+        width: 300px;
+        height: 56px;
+        background-color: #D0E4D9;
+        border-radius: 60px;
+        color: #373737;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+}
+
+.safety-container {
+    width: 378px;
+    height: 285px;
+    top: 266px;
+    left: 1365px;
+    gap: 20px;
+}
+
+.safety-wrapper {
+    width: 268px;
+    height: 97px;
+    gap: 20px;
+}
+
+.safety-logo {
+    width: 32px;
+    height: 32px;
+}
+
+.safety-title {
+    width: 268px;
+    height: 45px;
+    font-family: Unbounded;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 45px;
+    text-align: left;
+    padding-top: 20px;
+}
+
+.safety-info {
+    width: 378px;
+    height: 168px;
+    font-family: Unbounded;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    padding-top: 20px;
+}
+ul {
+    margin: 0px;
+    padding: 0px 20px;
+}
+
 .location {
     width: 1530px;
     height: 922px;
