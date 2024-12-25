@@ -1,38 +1,42 @@
-@import '/fonts.css';
+/* @import '/normolize.css'  нужно это подключать для сбросов стилей*/
+@import './normolize.css';
+@import './fonts.css';
+@import '../scss/colors.css';
+
+/*blocks*/
+@import "../scss/menu.css";
+@import '../modules.css/header.css';
+@import '../modules.css/buttons.css';
+@import '../modules.css/common.css';
+@import '../modules.css/logo.css';
+@import '../modules.css/divider.css';
+@import '../modules.css/museum-info.css';
+@import '../modules.css/photo-link.css';
+@import '../modules.css/programms.css';
+@import '../modules.css/cars.css';
+
+
+
+@import '../modules.css/tickets.css';
+@import '../modules.css/location.css';
+@import '../modules.css/map.css';
+@import '../modules.css/footer.css';
+
+
+/*каждой секции нужно задавать position:absolute*/
+* {
+    box-sizing: border-box;
+    font-family: Unbounded;
+    font-size: normal;
+}
 
 body {
-    width: 1920px;
-    height: 11307px;
-    background-color: #ffffff;
-    color: #1E1E25;
-    font-family: Unbounded;
+    position: relative;
 }
 
-.header {
-    position: absolute;
-    margin: 38px 195px;
-}
 
-.header-container {
-    display: flex;
-    justify-content: space-between;
-    width: 1530px;
-    height: 38px;
-    
-}
 
-.header-navbar {
-    width: 577px;
-    height: 14px;
-    gap: 70px;
-    display: flex;
-    font-family: Unbounded;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 14px;
-    text-align: left;
-}
-
+/*
 .estate {
     background: url('/img/estate-car.jpg') no-repeat right;
     width: 1920px;
@@ -833,13 +837,7 @@ text-align: left;
     align-items: center;
 }
 
-.footer-logo {
-    display: flex;
-    align-items: center;
-    width: 159px;
-    height: 38px;
-    justify-content: space-between;
-}
+
 
 .year {
     width: 47px;
@@ -862,3 +860,4 @@ text-align: left;
     text-align: right;
     color: #1E1E25;
 }
+*/
