@@ -1,0 +1,27 @@
+:root {
+    --main-background-color: #F6F5F5;
+    --menu-background-color: rgba(246, 245, 245, 50%);
+    --secondary-backcground-color: #D0E4D9;
+    --tertiary-backcground-color: #C1C1C1;
+
+    /* photo-link */
+    --photo-link-main-background-color: #8EAAAB;
+    --photo-link-secondary-background-color: #1E1E25;
+
+    /* text */
+    --main-text-color: #1E1E25;
+    --secondary-text-color: #FFFFFF;
+
+    /* main-button */
+    --main-backgound-color-button: #6C79EC;
+    --main-button-border-color: #6C79EC;
+    --main-button-text-color: #6C79EC;
+    --main-button-active-background-color: #4653CE;
+    --main-button-active-text-color: #FFFFFF;
+    --main-button-hover-background-color: #6C79EC;
+    --main-button-hover-text-color: #FFFFFF;
+
+    /* secondary-button */
+    --secondary-button-backgound-color: #6C79EC;
+    --secondary-button-text-color: #FFFFFF;
+}

@@ -1,0 +1,70 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 1130px;
+    padding-top: 38px;
+    background: url('../img/estate-car.jpg') no-repeat center/cover;
+}
+
+.header__block {
+    height: 38px;
+}
+
+.header__partners {
+    width: 575px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 76px;
+}
+
+.header__data {
+    margin-top: 211px;
+}
+
+.header__title, .header__text {
+    margin-top: 40px;
+}
+
+.header__buttons-wrapper {
+    display: flex;
+    margin-top: 30px;
+}
+
+.header__buttons-wrapper > .button:first-child {
+    margin-right: 24px;
+}
+
+.header__arrow {
+    display: block;
+    position: relative;
+    margin: 162px auto 0;
+    width: 28px;
+    height: 7px;
+    cursor: pointer;
+}
+
+.header__arrow::after, .header__arrow::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 15.65px;
+    height: 3px;
+    background-color: black;
+    
+}
+
+.header__arrow::after {
+    top: 0;
+    left: 0.5px;
+    transform: rotate(30deg);
+    border-radius: 0 20px 20px 0;
+}
+
+.header__arrow::before {
+    top: 0;
+    right: 0.5px;
+    transform: rotate(-30deg);
+    border-radius: 20px 0 0 20px;
+}
