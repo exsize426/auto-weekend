@@ -1,0 +1,42 @@
+.footer {
+    max-width: 1533px;
+    max-height: 619px;
+    border-radius: 50px;
+    background-color: var(--main-footer-background-color);
+    margin: 180px 198px;
+}
+
+.footer__wrapper1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__contacts-wrapper {
+    max-width: 729px;
+    max-height: 154px;
+    padding: 80px 100px;
+    color: var(--secondary-footer-text-color)
+}
+
+.footer__message {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    padding-right: 30px;
+}
+
+.footer__message_indentation {
+    padding-right: 180px;
+}
+
+.footer__logo {
+    width: 42px;
+    height: 42px;
+}
+
+.footer__holder {   
+    gap: 478px;
+    display: flex;
+    align-items: center;
+    padding: 267px 100px 80px;
+}

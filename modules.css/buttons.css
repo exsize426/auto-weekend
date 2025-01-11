@@ -24,3 +24,21 @@
 .button_secondary {
     width: 282px;
 }
+
+.button_tertiary {
+    width: 100%;
+    background-color: var(--tertiary-button-backgound-color);
+    color: var(--tertiary-button-text-color);
+    border: none;
+}
+
+.button_benefits {
+    background-color: var(--fourth-button-backgound-color);
+    color: var(--fourth-button-text-color);
+    width: 151px;
+    height: 50px;
+}
+
+.button_footer {
+    margin: 80px 103px;
+}
