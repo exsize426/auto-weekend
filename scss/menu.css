@@ -43,3 +43,20 @@
 .menu__link:hover {
     color: var(--main-backgound-color-button);
 }
+
+@media (max-width: 1024px) {
+    .menu {
+        height: 98px;
+    }
+}
+
+@media (max-width: 320px) {
+    .menu {
+        padding: 15px 0;
+        height: 68px;
+    }
+
+    .menu__list {
+        display: none;
+    }
+}
