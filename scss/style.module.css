@@ -14,13 +14,15 @@
 @import '../modules.css/photo-link.css';
 @import '../modules.css/programms.css';
 @import '../modules.css/cars.css';
-
-
-
-@import '../modules.css/tickets.css';
+@import '../modules.css/price.css';
 @import '../modules.css/location.css';
-@import '../modules.css/map.css';
+
 @import '../modules.css/footer.css';
+
+
+
+@import '../modules.css/map.css';
+
 
 
 /*каждой секции нужно задавать position:absolute*/
@@ -36,7 +38,7 @@ body {
 
 
 
-/*
+/* CSS Style без БЭМ Технологий
 .estate {
     background: url('/img/estate-car.jpg') no-repeat right;
     width: 1920px;
