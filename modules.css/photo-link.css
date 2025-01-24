@@ -18,3 +18,17 @@
     width: 22px;
     height: 22px;
 }
+
+@media (max-width: 1024px) {
+    .photo-link {
+        width: 400px;
+        height: 128px;
+    }
+}
+
+@media (max-width: 320px) {
+    .photo-link {
+        width: 132px;
+        height: 134px;
+    }
+}
