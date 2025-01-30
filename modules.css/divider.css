@@ -52,6 +52,12 @@
     padding: 30px 0;
 }
 
+@media (max-width: 1024px) {
+    .divider {
+        top: -40px
+    }
+}
+
 @media (max-width: 320px) {
     .divider {
         top: -40px
