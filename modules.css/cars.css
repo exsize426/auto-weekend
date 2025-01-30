@@ -67,7 +67,7 @@
 
 @media (max-width: 1024px) {
     .cars__wrapper {
-        padding: 50px 0;
+        padding: 50px 0 150px;
     }
 
     .cars__block {
@@ -121,7 +121,7 @@
     .cars__mobile-block {
         display: flex;
         justify-content: space-between;
-        padding-bottom: 62px;
+        padding-bottom: 120px;
     }
 
     .cars__item_picture,

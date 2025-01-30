@@ -59,3 +59,98 @@
     bottom: 0;
     right: 0;
 }
+
+@media (max-width: 1024px) {
+    .programms__content {
+        padding: 60px 0;
+    }
+
+    .programms__info {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .programms__info-item {
+        width: 930px;
+        height: 235px;
+        padding: 50px;
+        border: 2px solid var(--main-border-color);
+        border-radius: 40px;
+    }
+
+    .programms__info-item:not(:first-child) {
+         margin-top: 30px;
+    }
+
+    .programms__info-item > .caption,
+    .programms__info-item > .text {
+    margin-top: 10px;
+    }
+
+    .programms__competitions {
+        margin-top: 100px;
+    }
+
+    .programms__competitions-facts {
+        margin-top: 50px;
+    }
+
+    .programms__competitions-item {
+        padding: 50px 50px 0;
+        width: 450px;
+        height: 657px;
+    }
+
+    .programms__competitions-img {
+        width: 432.34px;
+        height: 279.67px;
+    }
+
+}
+
+@media (max-width: 320px) {
+    .programms__content {
+        padding: 10px 0;
+    }
+
+    .programms__info {
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .programms__info-item:not(:first-child) {
+        margin-top: 20px;
+   }
+
+   .programms__info-item {
+    width: 284px;
+    height: 318px;
+    padding: 20px;
+    }
+
+    .programms__competitions {
+        margin-top: 67px;
+    }
+
+    .programms__competitions-facts {
+        margin-top: 45px;
+        flex-direction: column;
+    }
+
+    .programms__competitions-item {
+        padding: 20px 20px 0;
+        width: 284px;
+        height: 460px;
+    }
+
+
+    .programms__competitions-img {
+        width: 293.98px;
+        height: 190.17px;
+    }
+
+    .programms__competitions-item:not(:first-child) {
+        margin-top: 30px;
+        height: 658px;
+    }
+}
