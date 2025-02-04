@@ -1,0 +1,55 @@
+@use "./colors" as *
+
+.button 
+    display: flex
+    justify-content: center
+    align-items: center
+    width: 238px
+    height: 56px
+    border-radius: 60px
+    border: 2px solid $main-button-border-color
+    cursor: pointer
+    color: $main-button-text-color
+    transition: color 0.5s, background-color 0.5s
+
+    &:hover 
+        color: $main-button-hover-text-color
+        background-color: $main-button-hover-background-color
+    
+    &:active 
+        color: $main-button-active-text-color
+        background-color: $main-button-active-background-color
+
+    &_secondary 
+        width: 282px
+
+    &_tertiary 
+        width: 100%
+        background-color: $tertiary-button-backgound-color
+        color: $tertiary-button-text-color
+        border: none
+
+    &_benefits 
+        background-color: $fourth-button-backgound-color
+        color: $fourth-button-text-color
+        width: 151px
+        height: 50px
+
+    &_footer 
+        margin: 80px 103px
+
+    $breakpoint-tablet: 1024px 
+    $breakpoint-mobile: 320px 
+        
+    &_footer 
+        @media (max-width: $breakpoint-tablet )
+            margin: 80px 50px 0
+        
+        @media (max-width: $breakpoint-mobile )
+            margin: 100px 20px 0
+            max-width: 282px
+            max-height: 56px
+        
+    &
+        @media (max-width: $breakpoint-mobile )
+                width: 100%

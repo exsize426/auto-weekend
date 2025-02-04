@@ -1,0 +1,13 @@
+{
+  "name": "auto-weekend",
+  "version": "1.0.0",
+  "description": "Project create sass",
+  "scripts": {
+    "sass:build": "sass scss:build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.83.4"
+  }
+}
