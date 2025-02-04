@@ -1,0 +1,127 @@
+@use './colors' as *
+
+.programms 
+    position: relative
+    width: 100%
+    background-color: $tertiary-background-color
+
+    &__content 
+        padding: 240px 0
+    
+    &__info 
+        display: flex
+        justify-content: space-between
+        margin-top: 80px
+    
+    &__info-item 
+        width: 490px
+        height: 490px
+        padding: 68px
+        border: 2px solid $main-border-color
+        border-radius: 40px
+
+    &__info-item > .caption,
+    &__info-item > .text 
+        margin-top: 30px
+
+    &__competitions 
+        margin-top: 160px
+
+    &__competitions-facts 
+        margin-top: 80px
+        display: flex
+        justify-content: space-between
+
+    &__competitions-item 
+        position: relative
+        padding: 120px 100px 0
+        width: 750px
+        height: 850px
+        border-radius: 40px
+        background-color: $main-competitions-block-background-color
+
+    &__competitions-item_secondary 
+        background-color: $secondary-competitions-block-background-color
+
+    &__competitions-item > .text 
+        margin-top: 30px
+
+    &__competitions-img 
+        position: absolute
+        bottom: 0
+        right: 0
+    
+@media (max-width: 1024px) 
+    .programms
+        &__content 
+            padding: 60px 0
+        
+        &__info 
+            flex-direction: column
+            margin-top: 50px
+        
+        &__info-item 
+            width: 930px
+            height: 235px
+            padding: 50px
+            border: 2px solid $main-border-color
+            border-radius: 40px
+        
+        &__info-item:not(:first-child) 
+            margin-top: 30px
+        
+        &__info-item > .caption,
+        &__info-item > .text 
+            margin-top: 10px
+    
+        &__competitions 
+            margin-top: 100px
+    
+        &__competitions-facts 
+            margin-top: 50px
+        
+        &__competitions-item 
+            padding: 50px 50px 0
+            width: 450px
+            height: 657px
+        
+        &__competitions-img 
+            width: 432.34px
+            height: 279.67px
+
+@media (max-width: 320px) 
+    .programms
+        &__content 
+            padding: 10px 0
+        
+        &__info 
+            flex-direction: column
+            margin-top: 30px
+        
+        &__info-item:not(:first-child) 
+            margin-top: 20px
+    
+        &__info-item 
+            width: 284px
+            height: 318px
+            padding: 20px
+
+        &__competitions 
+            margin-top: 67px
+        
+        &__competitions-facts 
+            margin-top: 45px
+            flex-direction: column
+        
+        &__competitions-item 
+            padding: 20px 20px 0
+            width: 284px
+            height: 460px
+        
+        &__competitions-img 
+            width: 293.98px
+            height: 190.17px
+        
+        &__competitions-item:not(:first-child) 
+            margin-top: 30px
+            height: 658px

@@ -1,0 +1,95 @@
+@use './colors' as *
+
+.price 
+    padding: 120px 0 115px 0
+    position: relative
+    background-color: $main-competitions-block-background-color
+
+    &__tickets 
+        display: flex
+        justify-content: space-between
+
+    &__ticket 
+        position: relative
+        width: 360px
+        height: 433px
+        padding: 30px
+        background-color: $ticket-backgound-color
+        border-radius: 40px
+
+    &__ticket-divider 
+        margin-top: 29px
+        width: 100%
+        height: 1px
+        background-color: $ticket-divider-backgound-color
+
+    &__ticket-wrapper 
+        margin-top: 30px
+        display: flex
+
+    &__ticket-slash 
+        min-width: 17px
+
+    &__tag 
+        font-size: 25px
+        font-weight: 700
+        line-height: 25px
+
+    &__ticket-button-wrapper 
+        padding: 30px
+        width: 100%
+        position: absolute
+        bottom: 0
+        left: 0
+
+    &__ticket .button 
+        margin-top: 20px
+
+    &__ticket_common 
+        padding: 0
+        background-color: transparent
+
+    &__ticket .caption 
+        margin-top: 20px
+
+    &__ticket-list 
+        padding: 0 0 0 15px
+        margin: 20px 0 0
+
+    &__info 
+        margin-top: 100px
+
+    &__table 
+        margin-top: 50px
+
+    &__table-row 
+        display: flex
+        align-items: center
+        justify-content: space-between
+        height: 84px
+        border-bottom: 1px solid $secondary-border-color
+
+    &__table-row_header 
+        align-items: start
+        height: 54px
+        border-bottom: 2px solid $main-border-color
+
+    &__table-cell 
+        width: 390px
+
+    &__table-row_header > &__table-cell 
+        color: $tertiary-text-color
+
+    &__benefits 
+        display: flex
+        justify-content: space-between
+        align-items: center
+
+    &__children 
+        padding-left: 10px
+        color: $fourth-text-color
+
+@media (max-width: 1024px) 
+
+@media (max-width: 320px) 
+    

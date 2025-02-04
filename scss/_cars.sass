@@ -1,0 +1,115 @@
+@use './colors' as *
+
+.cars 
+    position: relative
+    width: 100%
+    background-color: $secondary-background-color
+
+    &__wrapper 
+        display: flex
+        justify-content: space-between
+        padding: 240px 0 240px
+    
+    &__text, &__button 
+        margin-top: 50px
+
+    &__item 
+        background-color: transparent
+
+    &__item .text 
+        display: block
+        margin-top: 50px
+
+    &__item:not(:first-child) 
+        margin-top: 130px
+
+    &__item_picture, 
+    &__item_full-picture,
+    &__item_vertical-picture 
+        max-width: 650px
+        max-height: 650px
+
+    &__item_full-picture 
+        max-width: 750px
+        max-height: 750px
+
+    &__item_vertical-picture 
+        max-width: 750px
+        max-height: 600px
+    
+
+    &__img 
+        max-width: 100%
+        max-height: 100%
+        display: block
+        object-fit: cover
+        object-position: center
+        border-radius: inherit
+    
+    &__block 
+        width: 100%
+
+    &__block:first-child 
+        margin-right: 130px
+
+    &__mobile-block 
+        display: none
+    
+    
+
+@media (max-width: 1024px) 
+    .cars 
+        &__wrapper 
+            padding: 50px 0 150px
+        
+        &__block 
+            max-width: 400px
+
+        &__item .text,
+        &__button 
+            margin-top: 30px
+
+        &__item:not(:first-child) 
+            margin-top: 80px
+
+        &__item_picture, 
+        &__item_full-picture,
+        &__item_vertical-picture 
+            max-width: 450px
+            max-height: 450px
+
+@media (max-width: 320px) 
+    .cars
+        &__wrapper 
+            padding: 10px 0 50px
+
+        &__item .text,
+        &__button 
+            margin-top: 20px
+
+        &__item:not(:first-child) 
+            margin-top: 50px
+
+        &__block:not(:first-child),
+        &__item:not(:first-child) 
+            display: none
+
+        &__block 
+            position: relative
+
+        &__wrapper 
+            flex-direction: column
+
+        &__mobile-block 
+            display: flex
+            justify-content: space-between
+            padding-bottom: 120px
+
+        &__item_picture,
+        &__item_full-picture 
+            width: 132px
+            height: 150px
+
+        &__item_vertical-picture 
+            width: 132px
+            height: 100px
