@@ -1,4 +1,5 @@
 @use './colors' as *
+@use "./mixin" as *
 
 .price 
     padding: 120px 0 115px 0
@@ -6,8 +7,7 @@
     background-color: $main-competitions-block-background-color
 
     &__tickets 
-        display: flex
-        justify-content: space-between
+        @include flex-nth-one
 
     &__ticket 
         position: relative
@@ -63,9 +63,7 @@
         margin-top: 50px
 
     &__table-row 
-        display: flex
-        align-items: center
-        justify-content: space-between
+        @include flex-space-between
         height: 84px
         border-bottom: 1px solid $secondary-border-color
 
@@ -81,9 +79,7 @@
         color: $tertiary-text-color
 
     &__benefits 
-        display: flex
-        justify-content: space-between
-        align-items: center
+        @include flex-space-between
 
     &__children 
         padding-left: 10px

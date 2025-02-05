@@ -1,9 +1,9 @@
 @use './colors' as *
+@use "./mixin" as *
 
 .header 
-    display: flex
+    @include flex-nth-one
     flex-direction: column
-    justify-content: space-between
     padding-top: 38px
     background: url('../img/estate-car.jpg') no-repeat center/cover
 
@@ -11,10 +11,8 @@
         height: 38px
 
     &__partners 
+        @include flex-space-between
         width: 575px
-        display: flex
-        justify-content: space-between
-        align-items: center
         margin-top: 83px
 
     &__data 
