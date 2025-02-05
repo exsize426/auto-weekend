@@ -1,4 +1,5 @@
 @use './colors' as *
+@use "./mixin" as *
 
 .footer 
     max-width: 1533px
@@ -8,8 +9,7 @@
     margin: 180px 198px
 
     &__wrapper1 
-        display: flex
-        justify-content: space-between
+        @include flex-nth-one
 
     &__contacts-wrapper 
         max-width: 729px

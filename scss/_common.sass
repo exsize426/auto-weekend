@@ -1,25 +1,23 @@
 @use './colors' as *
+@use "./mixin" as *
 
 .container 
     width: 100%
     padding: 0 195px
 
 .title 
-    margin: 0
+    @include indent-size
     font-size: 86px
-    font-weight: 500
     line-height: 86px
 
 .subtitle 
-    margin: 0
+    @include indent-size
     font-size: 50px
-    font-weight: 500
     line-height: 50px
 
 .caption 
-    margin: 0
+    @include indent-size
     font-size: 30px
-    font-weight: 500
     line-height: 45px
     color: $main-text-color
 

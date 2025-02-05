@@ -1,4 +1,5 @@
 @use './colors' as *
+@use "./mixin" as *
 
 .location 
     position: relative
@@ -24,8 +25,7 @@
         text-align: left
 
     &__container 
-        display: flex
-        justify-content: space-between
+        @include flex-nth-one
         padding-top: 60px
 
     &__block 
